@@ -10,18 +10,23 @@ Using autoencoder, we are trying to remove the noise added in the encoder part a
 The dataset which is used is mnist dataset.
 
 ## Convolution Autoencoder Network Model
+![nn](https://user-images.githubusercontent.com/77089743/201087716-0a56206c-d6b4-448f-ac99-7b6dbcbba3c0.jpg)
 
-Include the neural network model diagram.
 
 ## DESIGN STEPS
 
 ### STEP 1:
-Download and split the dataset into training and testing datasets
+Download and split the dataset into training and testing datasets.
 ### STEP 2:
-rescale the data as that the training is made easy
+Rescale the data as that the training is made easy.
 ### STEP 3:
-create the model for the program , in this experiment we create to networks , one for encoding and one for decoding 
-Write your own steps
+Add noise factor.
+### STEP 4:
+Create a autoencoder model.
+### STEP 5:
+Compile and fit the created model.
+### STEP 6:
+Display the Original, Noisy and Reconstructed Image.
 
 ## PROGRAM
 ```
@@ -116,7 +121,7 @@ for i in range(1, n + 1):
     ax.get_yaxis().set_visible(False)
 plt.show()
 ```
-Include your code here
+
 
 ## OUTPUT
 
