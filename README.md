@@ -1,3 +1,5 @@
+### Exp No: 7
+### Date: 13.11.2022
 # Convolutional Autoencoder for Image Denoising
 
 ## AIM
